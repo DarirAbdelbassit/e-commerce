@@ -1,0 +1,87 @@
+/*======================================
+      Start Contact CSS
+    ========================================*/
+
+.contact-us .title {
+  margin-bottom: 30px;
+}
+.contact-us .title h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #f7941d;
+}
+.contact-us .title h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
+.contact-us .single-head {
+  padding: 50px;
+  box-shadow: 0px 0px 15px #0000001a;
+  height: 100%;
+}
+.contact-us .single-info {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact-us .single-info .title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #f7941d;
+  font-size: 18px;
+}
+.contact-us .form-main {
+  box-shadow: 0px 0px 15px #0000001a;
+  padding: 50px;
+}
+.contact-us .form .form-group input {
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  border: 1px solid #e6e2f5;
+  padding: 0px 20px;
+  color: #333;
+  border-radius: 0px;
+  font-weight: 400;
+}
+.contact-us .form .form-group textarea {
+  height: 180px;
+  width: 100%;
+  border: 1px solid #e6e2f5;
+  padding: 15px 20px;
+  color: #333;
+  border-radius: 0px;
+  resize: none;
+  font-weight: 400;
+}
+
+.contact-us .form .form-group label span {
+  color: #ff2c18;
+  display: inline-block;
+  position: absolute;
+  right: -12px;/*We want the * to be next to the words*/
+  top: 4px;
+  font-size: 16px;
+}
+
+#btn_submit {
+  height: 40px;
+  width: 120px;
+  background-color: #f7941d;
+  border: 1px solid #f7941d;
+  color: #ffffff;
+  transition: all 0.3s;
+  margin-left: 12px;
+  font-weight: 700;
+}
+#btn_submit:hover {
+  background-color: transparent;
+  color: #f7941d;
+}
+
+/*======================================
+          End Contact CSS
+========================================*/

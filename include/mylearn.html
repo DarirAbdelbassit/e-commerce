@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/flex.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Store</title>
+  </head>
+  <body>
+    <!-- nav bar start-->
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white">
+      <div class="container">
+        <a href="index.html" class="logo"
+          ><span style="color: #f7941d">DARIR_STAF </span>STORE</a
+        >
+        </div>
+      <ul>
+        <li>home</li>
+        <li>me</li>
+        <li>body</li>
+      </ul>
+    </div>
+    <!-- nav bar end-->
+
+    <div class="container">
+      <!--form-control : text-box full width-->
+      <form>
+        <label for="maile"> email </label>
+        <input type="email" id="maile" class="form-control" />
+      </form>
+      <form>
+        <label for="pass"> Password </label>
+        <input type="Password" id="pass" class="form-control" />
+      </form>
+      <label for="notes">note</label>
+      <br />
+      <textarea name="notes" rows="3" class="form-control"></textarea>
+      <br /><br />
+      <select class="form-control">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+      </select>
+      <br />
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button">Darir</button>
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <style>
+      .bgimg {
+        background-image: url(./img/slider-bg.png);
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+      }
+    </style>
+    <header class="bgimg">
+      <h1>iwa hani</h1>
+    </header>
+    <!-- add marrgin && Padding  left and right 
+        container(fixed) 
+        change only on some sizes(sm,md,lg) 
+    -->
+    <div class="container">
+      <center><h1>darir</h1></center>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem
+        cupiditate praesentium assumenda inventore dignissimos maiores dolores
+        eveniet, laudantium repudiandae ipsum, hic consectetur, dicta aspernatur
+        neque autem nisi ex. Iusto!
+      </p>
+    </div>
+
+    <!-- add just Padding  left and right 
+        container(flex with text) 
+    -->
+    <div class="container-fluid">
+      <center><h1>darir</h1></center>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem
+        cupiditate praesentium assumenda inventore dignissimos maiores dolores
+        eveniet, laudantium repudiandae ipsum, hic consectetur, dicta aspernatur
+        neque autem nisi ex. Iusto!
+      </p>
+    </div>
+    <h1>it's bottons</h1>
+    <button type="button">darir</button>
+    <h1>it's bootstrapbtn</h1>
+    <!--it's the best button possible-->
+    <button type="button" class="btn btn-primary btn-lg btn-block">
+      it's primary
+    </button>
+
+    <div class="container">
+      <!-- take of 12 margin  left and right 
+            no padding
+    -->
+      <div class="row">
+        <!-- Columns : 
+                DARORI TKON F ROW 
+                LPAGE FIHA 12
+                Col-Type(sm,lg,..)-N(1...12)
+        -->
+        <!-- if you face any problemlike one column is bigger then the others use :
+    <div class="clearfix visible-md-block"></div>
+        -->
+        <!--offest: mli kanbghiw nrdo chi ktaba mlas9a f chi type(sm,lg) bdbt 
+        obachma nkhrb9o dakchi kantb3o liha offset-0 bach thbs-->
+        <div
+          style="border: 2px solid red"
+          class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-12 col-md-4 col-sm-6"
+        >
+          <div class="row">
+            <div class="col-lg-1">
+              <div class="text-align-left">
+                <h1>darir</h1>
+              </div>
+              <div class="col-lg-11">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  voluptatem cupiditate praesentium assumenda inventore
+                  dignissimos
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div style ="border:2px solid red"class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-2 col-md-4 col-sm-6">
+          <div class="row">
+              <div class="col-lg-2">
+            <center><h1>darir </h1></center>
+            </div>
+            <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatem cupiditate praesentium assumenda inventore dignissimos
+              
+            </p>
+            </div>
+          </div>
+        </div>
+        <div style ="border:2px solid red"class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-2 col-md-4 col-sm-6">
+          <div class="row">
+              <div class="col-lg-2">
+            <center><h1>darir </h1></center>
+            </div>
+            <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatem cupiditate praesentium assumenda inventore dignissimos
+              maiores dolores eveniet, laudantium repudiandae ipsum, hic
+              consectetur,Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Qui, maiores? 
+              </div>Autem, perspiciatis perferendis. Tempora iusto
+              voluptatem porro voluptas nam voluptate natus, sequi qui, eaque
+              nesciunt esse, quis provident beatae suscipit. dicta aspernatur
+              neque autem nisi ex. Iusto!
+            </p>
+          </div>
+        </div>
+        <div style ="border:2px solid red"class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-2 col-md-4 col-sm-6">
+          <div class="row">
+              <div class="col-lg-2">
+            <center><h1>darir </h1></center>
+            </div>
+            <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatem cupiditate praesentium assumenda inventore dignissimos
+              
+            </p>
+            </div>
+          </div>
+        </div>
+        <div style ="border:2px solid red"class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-2 col-md-4 col-sm-6">
+          <div class="row">
+              <div class="col-lg-2">
+            <center><h1>darir </h1></center>
+            </div>
+            <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatem cupiditate praesentium assumenda inventore dignissimos
+              
+            </p>
+            </div>
+          </div>
+        </div>
+        <div style ="border:2px solid red"class="col-xs-offset-3 col-sm-offset-0 col-xs-6 col-lg-2 col-md-4 col-sm-6">
+          <div class="row">
+              <div class="col-lg-2">
+            <center><h1>darir </h1></center>
+            </div>
+            <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatem cupiditate praesentium assumenda inventore dignissimos
+              
+            </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

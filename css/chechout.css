@@ -1,0 +1,186 @@
+/*======================================
+   Start Checkout Form CSS
+========================================*/
+.shop.checkout {
+  padding: 0;
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.shop.checkout .checkout-form {
+  box-shadow: 0px 0px 15px #0000001a;
+  margin-top: 30px;
+  padding: 50px;
+}
+.shop.checkout .checkout-form h2 {
+  font-size: 25px;
+  color: #333;
+  font-weight: 700;
+  line-height: 27px;/* give speace between texts*/
+}
+.shop.checkout .checkout-form p {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+.shop.checkout .form .form-group {
+  margin-bottom: 25px;
+}
+.shop.checkout .form .form-group label {
+  color: #333;
+  position: relative;
+}
+.shop.checkout .form .form-group label span {
+  color: #ff2c18;
+  display: inline-block;
+  position: absolute;/*to let us move the span*/
+  right: -12px;
+  top: 4px;
+  font-size: 16px;
+}
+.shop.checkout .form .form-group input {
+  width: 100%;
+  height: 45px;
+  line-height: 50px;
+  padding: 0 20px;
+  border:#f7941d solid 1px;
+  color: rgb(17, 17, 17) ;
+  background: #fcfcfc;
+}
+.shop.checkout .order-details {
+  margin-top: 30px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 15px #0000001a;
+}
+.shop.checkout .forpyment {
+  margin-bottom: 30px;
+}
+.shop.checkout #myDIV{
+  display: none;
+}
+
+.shop.checkout .forpyment h2 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 5px;
+}
+.shop.checkout .forpyment h2:before {
+  /*draw the line under cart totals&payment*/
+  position: absolute;
+  content: "";
+  left: 30px;
+  bottom: 0;/*make it under it*/
+  height: 2px;
+  width: 50px;
+  background: #f7941d;
+}
+.shop.checkout .forpyment .content ul {
+  margin-top: 30px;
+}
+.shop.checkout .forpyment .content ul li {
+  display: block;
+  padding: 0px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 12px;
+}
+.shop.checkout .forpyment .content ul li span {
+  display: inline-block;
+  float: right;
+}
+.shop.checkout .forpyment .content ul li.last {
+  padding-top: 12px;
+  border-top: 1px solid #ebebeb;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(122, 14, 14);
+}
+.shop.checkout .forpyment .checkbox {
+  text-align: left;
+  margin: 0;
+  padding: 0px 30px;
+  margin-top: 30px;
+}
+.shop.checkout .forpyment .checkbox label {
+  color: #101010;
+  position: relative;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: -5px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.shop.checkout .forpyment .checkbox label:hover {
+  cursor: pointer;
+}
+.shop.checkout .forpyment .checkbox label input {
+  display: none;/*to not see the checkbox case*/
+}
+.shop.checkout .forpyment .checkbox label::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  line-height: 16px;
+  border: 1px solid #666;
+  border-radius: 100%;
+}
+.shop.checkout .forpyment .checkbox label::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  line-height: 16px;
+  border-radius: 100%;
+  display: block;
+  background: #666;
+  transform: scale(0);
+  transition: all 0.4s ease;
+}
+.shop.checkout .forpyment .checkbox label.checked::after {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.shop.checkout .forpyment.payement {
+  padding: 0px 38px;
+  text-align: center;
+  margin-top: 30px;
+}
+.shop.checkout .forpyment.get-button {
+  text-align: center;
+  padding: 0px 35px;
+}
+.shop.checkout .forpyment.get-button .btn {
+  height: 46px;
+  width: 100%;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+.shop.checkout .order-details .content img {
+  display: flex;
+  margin: 10px 0px 20px ;
+}
+/*======================================
+  End Checkout Form CSS
+========================================*/
